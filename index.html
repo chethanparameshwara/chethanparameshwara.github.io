@@ -81,9 +81,28 @@
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		 
-	   <tr>
+	   <!--tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="resource/momswithevents.png" alt="b3do" width="160" style="border-style: none">
+            </td-->
+	 <tr onmouseout="momswithevents_stop()" onmouseover="momswithevents_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='momswithevents_image'>
+                  <img src='resource/momswithevents_after.png' width="160" height="160" style="border-style: none">
+                </div>
+                <img src='resource/momswithevents_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function momswithevents_start() {
+                  document.getElementById('momswithevents_image').style.opacity = "1";
+                }
+
+                function momswithevents_stop() {
+                  document.getElementById('momswithevents_image').style.opacity = "0";
+                }
+                momswithevents_stop()
+              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2006.06158">
@@ -165,9 +184,28 @@
 	    
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		 
-	   <tr>
+	   <!--tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="resource/betterflow.PNG" alt="b3do" width="160" style="border-style: none">
+            </td-->
+	 <tr onmouseout="betterflow_stop()" onmouseover="betterflow_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='betterflow_image'>
+                  <img src='resource/betterflow_after.png' width="160" height="160" style="border-style: none">
+                </div>
+                <img src='resource/betterflow_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function betterflow_start() {
+                  document.getElementById('betterflow_image').style.opacity = "1";
+                }
+
+                function betterflow_stop() {
+                  document.getElementById('betterflow_image').style.opacity = "0";
+                }
+                betterflow_stop()
+              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="http://prg.cs.umd.edu/BetterFlow">
