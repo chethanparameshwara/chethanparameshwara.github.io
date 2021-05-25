@@ -32,11 +32,11 @@
 <ul>
 <li><a href="https://www.neurala.com/" target="_blank">Neurala</a> as a research intern
 </li>	
-<li><a href="" target="_blank">Robot Training Academy Inc.</a> as an intern
+<li><a href="" target="_blank">Robot Training Academy Inc.</a> as a software engineering intern
 </li>
 <li><a href="http://www.bosch-india-software.com/en/index.html" target="_blank">Bosch</a> as a software engineer
 </li>
-<li><a href="http://www.iisc.ac.in/" target="_blank">Indian Institute of Science</a> as a  <a href="http://web-japps.ias.ac.in:8080/fellowship2013/" target="_blank">Summer Research Fellow</a>
+<li><a href="http://www.iisc.ac.in/" target="_blank">Indian Institute of Science</a> as a research fellow
 </li>
 </ul>
 
@@ -60,7 +60,7 @@
         <tbody><tr><td>
             <heading>News</heading>
             <ul>
-		<li> Jun 2020 : <a href="https://arxiv.org/abs/2006.06158" target="_blank">MOMS with Events</a> paper is now available on arXiv</li>
+		<li> Apr 2021 : <a href="http://prg.cs.umd.edu/0-MMS" target="_blank">0-MMS: Zero-Shot Multi-Motion Segmentation With A Monocular Event Camera</a> got accepted to ICRA 2021</li>
 		<li> May 2020 : <a href="http://prg.cs.umd.edu/EVDodgeNet" target="_blank">EVDodgeNet: Deep Dynamic Obstacle Dodging with event cameras</a> paper got accepted to ICRA 2020</li>
 		<li> Jul 2018 : <a href="http://prg.cs.umd.edu/BetterFlow.html" target="_blank">Event-based Moving Object Detection and Tracking</a> paper got accepted to IROS 2018 </li>
 	        <li> Aug 2017 : Starting PhD in Neuroscience and Cognitive Science</li>
@@ -72,12 +72,12 @@
       <tr>
         <td width="100%" valign="middle">
           <heading>Research</heading>
-          <p> I am interested in computer vision, machine learning, and robotics. My current focus is to develop novel algorithms for solving visual navigation problems such as Motion Segmentation and Tracking, Simultaneous localization and mapping (SLAM) and Visual odometry in dynamic scenes using <a href="http://prg.cs.umd.edu/EVDodgeNet">Neuromorphic Event-based cameras</a>.
+          <p> My research interest lies at the intersection of computer vision, robotics, and machine learning. The current focus is to develop novel algorithms for solving visual navigation problems such as Motion Segmentation and Tracking, Simultaneous localization and mapping (SLAM) and Visual odometry in dynamic scenes using <a href="https://en.wikipedia.org/wiki/Event_camera">Neuromorphic Event-based cameras</a>.
            </p>
         </td>
       </tr>
       </table>
-<!--EVDodgeNet-->
+
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		 
@@ -85,6 +85,49 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="resource/momswithevents.png" alt="b3do" width="160" style="border-style: none">
             </td-->
+	<tr onmouseout="momswithevents_stop()" onmouseover="momswithevents_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='momswithevents_image'>
+                  <img src='resource/momswithevents_after.png' width="160" height="160" style="border-style: none">
+                </div>
+                <img src='resource/momswithevents_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function momswithevents_start() {
+                  document.getElementById('momswithevents_image').style.opacity = "1";
+                }
+
+                function momswithevents_stop() {
+                  document.getElementById('momswithevents_image').style.opacity = "0";
+                }
+                momswithevents_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2006.06158">
+                <papertitle>SpikeMS: Deep Spiking Neural Network for Motion Segmentation</papertitle>
+              </a>
+              <br>
+              <strong>Chethan M. Parameshwara*</strong>,
+	      <a href="https://www.linkedin.com/in/simin-li-88088b/">Simin Li*</a>,
+	      <a href="http://users.umiacs.umd.edu/~fer/">Cornelia Fermüller</a>,
+              <a href="https://nitinjsanket.github.io/">Nitin J. Sanket</a>,
+	      <a href="https://www.linkedin.com/in/matthew-evanusa-8772109b/">Matthew S. Evanusa</a>,
+	      <a href="http://users.umiacs.umd.edu/~yiannis/">Yiannis Aloimonos</a>
+              <br>
+        <em>arXiv</em>, 2021  
+              <br>
+              <a href="">project page(coming soon)</a>
+              <a href="">code(coming soon)</a>
+              <a href="https://arxiv.org/abs/2105.06562">arXiv</a>
+              <a href="">video(coming soon)</a>
+              <p></p>
+              <p> We propose a spiking neural network for the motion segmentation problem using an asynchronous event camera.</p>
+            </td>
+          </tr>  
+		 
+			 
 	 <tr onmouseout="momswithevents_stop()" onmouseover="momswithevents_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -106,23 +149,23 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2006.06158">
-                <papertitle>MOMS with Events: Multi-Object Motion Segmentation With Monocular Event Cameras</papertitle>
+                <papertitle>0-MMS: Zero-Shot Multi-Motion Segmentation With A Monocular Event Camera</papertitle>
               </a>
               <br>
               <strong>Chethan M. Parameshwara</strong>,
               <a href="https://nitinjsanket.github.io/">Nitin J. Sanket</a>,
-              <a href="">Arjun Gupta</a>,
+              <a href="https://chahatdeep.github.io/">Chahat Deep Singh</a>,
               <a href="http://users.umiacs.umd.edu/~fer/">Cornelia Fermüller</a>,
 	      <a href="http://users.umiacs.umd.edu/~yiannis/">Yiannis Aloimonos</a>
               <br>
-        <em>arXiv</em>, 2020  
+        <em>ICRA</em>, 2021  
               <br>
-              <!-- a href="http://prg.cs.umd.edu/EVDodgeNet">project page</a-->
-              <!--a href="https://github.com/prgumd/EVDodgeNet">code</a-->
+              <a href="http://prg.cs.umd.edu/0-MMS">project page</a>
+              <a href="https://github.com/prgumd/0-MMS">code</a-->
               <a href="https://arxiv.org/abs/2006.06158">arXiv</a>
-              <!--a href="https://www.youtube.com/watch?v=NSwK1ZEsTOo">video</a-->
+              <a href="https://www.youtube.com/watch?v=KdpZkxjp02E">video</a>
               <p></p>
-              <p> We propose a solution to multi-object motion segmentation using a combination of classical optimization methods along with deep learning and does not require prior knowledge of the 3D motion and the number and structure of objects.</p>
+              <p> We propose a solution to multi-object motion segmentation using a combination of model-based and deep learning approaches with minimal prior knowledge.</p>
             </td>
           </tr>  
 		 
@@ -247,13 +290,13 @@
               <img src="resource/epipolar.png" alt="panoroma" width="160" height="160">
             </td>
             <td width="75%" valign="center">
-              <a href="http://prg.cs.umd.edu/cmsc733">CMSC733 : Classical and Deep Learning Approaches for Geometric Computer Vision (Spring 2020)</a>
+              Teaching Assistant, <a href="http://prg.cs.umd.edu/cmsc733">CMSC733 : Geometric Computer Vision</a>
               <br>
               <br>
-	      <a href="http://prg.cs.umd.edu/cmsc426">CMSC426 : Computer Vision (Fall 2020, Fall 2019, Fall 2018)</a>
+	      Teaching Assistant, <a href="http://prg.cs.umd.edu/cmsc426">CMSC426 : Computer Vision</a>
               <br>
 	      <br>
-              <a href="https://umd.instructure.com/courses/1257184">CMSC434 : Human Computer Interaction (Spring 2019)</a>
+              Teaching Assistant, <a href="https://umd.instructure.com/courses/1257184">CMSC434 : Human Computer Interaction</a>
             </td>
           </tr>
         </tbody></table>
@@ -294,7 +337,7 @@
               <p align="right">
                 <font size="2">
 		  
-                 Last updated on Aug 31, 2020. Got this minimalist website design from <a href="https://people.eecs.berkeley.edu/~barron/">Jon Barron</a>
+                 Last updated on May 25, 2021. Got this minimalist website design from <a href="https://people.eecs.berkeley.edu/~barron/">Jon Barron</a>
                 </font>
               </p>
             </td>
