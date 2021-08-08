@@ -255,12 +255,8 @@
 		 
 
 		 
-		 
-	  <!--tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="resource/evdodgenet.jpg" alt="b3do" width="160" style="border-style: none">
-            </td-->
-	   <tr onmouseout="evdodgenet_stop()" onmouseover="evdodgenet_start()">
+
+	   <!--tr onmouseout="evdodgenet_stop()" onmouseover="evdodgenet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='evdodgenet_image'>
@@ -277,6 +273,25 @@
                   document.getElementById('evdodgenet_image').style.opacity = "0";
                 }
                 evdodgenet_stop()
+              </script>
+            </td-->
+		   
+		   
+	   <tr onmouseout="evdodge_stop()" onmouseover="evdodge_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='evdodge_image'><img src='resource/evdodge.gif'></div>
+                <img src='resource/evdodge.png'>
+              </div>
+              <script type="text/javascript">
+                function evdodge_start() {
+                  document.getElementById('evdodge_image').style.opacity = "1";
+                }
+
+                function evdodge_stop() {
+                  document.getElementById('evdodge_image').style.opacity = "0";
+                }
+                evdodge_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
