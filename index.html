@@ -131,7 +131,7 @@
             </td>
           </tr>  
 		 
-		 <tr onmouseout="evpropnet_stop()" onmouseover="evpropnet_start()">
+	<!--tr onmouseout="evpropnet_stop()" onmouseover="evpropnet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='evpropnet_image'>
@@ -148,6 +148,24 @@
                   document.getElementById('evpropnet_image').style.opacity = "0";
                 }
                 momswithevents_stop()
+              </script>
+            </td-->
+			 
+	   <tr onmouseout="evpropnet_stop()" onmouseover="evpropnet_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='evpropnet_image'><img src='resource/evpropnet.gif'></div>
+                <img src='resource/evpropnet.png'>
+              </div>
+              <script type="text/javascript">
+                function evpropnet_start() {
+                  document.getElementById('evpropnet_image').style.opacity = "1";
+                }
+
+                function evpropnet_stop() {
+                  document.getElementById('evpropnet_image').style.opacity = "0";
+                }
+                evpropnet_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -195,7 +213,7 @@
               </script>
             </td-->
 		 
-	  <tr onmouseout="mms_stop()" onmouseover="mms_start()" bgcolor="#ffffd0">
+	  <tr onmouseout="mms_stop()" onmouseover="mms_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='mms_image'><img src='resource/0-mms.gif'></div>
