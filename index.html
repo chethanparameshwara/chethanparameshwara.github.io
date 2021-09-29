@@ -27,7 +27,7 @@
 		</p>
 		
 		<p> I specialize in developing computer vision and machine learning algorithms for resource-constrained robotic systems (low power/memory/latency). My research work is generously supported by <a href="https://nacs.umd.edu/students/awards-and-assistantships" target="_blank">William Hodos Dissertation Assistantship</a>, <a href="https://gradschool.umd.edu/sites/gradschool.umd.edu/files/uploads/Awards/Recipients/summerresfellows_summer_2020.pdf" target="_blank"> UMD Graduate School Summer Research Fellowship</a>, 
-			<a href="https://www.nsf.gov/index.jsp" target="_blank">NSF</a>, <a href="https://www.northropgrumman.com/" target="_blank">Northrop Grumman</a>, and <a href="https://www.samsung.com/" target="_blank">Samsung</a>.</p>
+			<a href="https://www.nsf.gov/index.jsp" target="_blank">NSF</a>, <a href="https://www.northropgrumman.com/" target="_blank">Northrop Grumman</a>, <a href="https://www.prophesee.ai/" target="_blank">Sony Prophesee</a> and <a href="https://www.samsung.com/" target="_blank">Samsung</a>.</p>
 	<p>Prior to joining the Ph.D. program, I received Master's degree in Robotics Engineering from <a href="https://eng.umd.edu/" target="_blank">A. James Clark School of Engineering</a>  at UMD and Bachelor's degree in Electronics and Communication Engineering from <a href="http://vtu.ac.in/" target="_blank">Visvesvaraya Technological University, India</a>.</p>
 
 <p>Since then, I have had the pleasure to work at:</p>
@@ -62,7 +62,7 @@
         <tbody><tr><td>
             <heading>Highlights</heading>
             <ul>
-		<li>[Jun 2021] <a href="https://arxiv.org/abs/2105.06562" target="_blank">SpikeMS</a> paper got accepted to IROS 2021</li>
+		<li>[Jun 2021] <a href="https://www.youtube.com/watch?v=q3w3ns9hWl8" target="_blank">SpikeMS</a> and <a href="https://www.youtube.com/watch?v=wQSS5fjKGbQ" target="_blank">NudgeSeg</a> papers got accepted to IROS 2021</li>
 		<li>[May 2021] <a href="https://prg.cs.umd.edu/EVPropNet" target="_blank">EVPropNet</a> paper got accepted to RSS 2021</li>
 		<li>[May 2021] Delighted to receive <a href="https://nacs.umd.edu/students/awards-and-assistantships" target="_blank">William Hodos Dissertation Assistantship</a> </li>
 		<li>[Apr 2021] <a href="http://prg.cs.umd.edu/0-MMS" target="_blank">0-MMS</a> paper got accepted to ICRA 2021</li>
@@ -124,10 +124,11 @@
               <br>
         <em><a href=" https://www.iros2021.org/">IROS, 2021</a></em> 
               <br>
-              project page /
-              code /
+              <a href="https://prg.cs.umd.edu/SpikeMS">project page</a> /
+              <a href="https://github.com/prgumd/SpikeMS">code</a> /
               <a href="https://arxiv.org/abs/2105.06562">arXiv</a> /
-              video
+              <a href="https://www.youtube.com/watch?v=q3w3ns9hWl8">video</a>
+		    
               <p></p>
               <p> We propose a spiking neural network for the motion segmentation problem using an asynchronous event camera.</p>
             </td>
@@ -152,6 +153,46 @@
                 momswithevents_stop()
               </script>
             </td-->
+		 
+		 
+	<tr onmouseout="nudgeseg_stop()" onmouseover="nudgeseg_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nudgeseg_image'><img src='resource/nudgeseg.gif'></div>
+                <img src='resource/nudgeseg.png'>
+              </div>
+              <script type="text/javascript">
+                function evpropnet_start() {
+                  document.getElementById('nudgeseg_image').style.opacity = "1";
+                }
+
+                function evpropnet_stop() {
+                  document.getElementById('nudgeseg_image').style.opacity = "0";
+                }
+                evpropnet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2106.15045">
+                <papertitle>NudgeSeg: Zero-Shot Object Segmentation by Repeated Physical Interaction</papertitle>
+              </a>
+              <br>
+	      <a href="https://chahatdeep.github.io/">Chahat Deep Singh*</a>,
+              <a href="https://nitinjsanket.github.io/">Nitin J. Sanket*</a>,
+	      <strong>Chethan M. Parameshwara</strong>,
+              <a href="http://users.umiacs.umd.edu/~fer/">Cornelia Fermüller</a>,	   
+	      <a href="http://users.umiacs.umd.edu/~yiannis/">Yiannis Aloimonos</a> (* equal contribution)
+              <br>
+        	<em><a href="https://www.iros2021.org/">IROS, 2021</a></em>  
+              <br>
+              <a href="http://prg.cs.umd.edu/NudgeSeg">project page</a> /
+              code /
+              arXiv /
+              <a href="https://www.youtube.com/watch?v=wQSS5fjKGbQ">video</a>
+              <p></p>
+              <p> We present a novel approach to segment never-seen objects by physically interacting with them and observing them from different views.</p>
+            </td>
+          </tr>  
 			 
 	   <tr onmouseout="evpropnet_stop()" onmouseover="evpropnet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
