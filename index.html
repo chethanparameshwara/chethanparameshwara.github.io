@@ -80,7 +80,7 @@
           <div class="two" id='nerf_image'>
             <img src='resource/nerf_after.png' width="160" height="160" style="border-style: none">
           </div>
-          <img src='resource/hypereventsclassifier.png' width="160" height="160" style="border-style: none">
+          <img src='resource/nerf_before.png' width="160" height="160" style="border-style: none">
         </div>
         <script type="text/javascript">
           function nerf_start() {
@@ -94,28 +94,70 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2105.06562">
-          <papertitle>SpikeMS: Deep Spiking Neural Network for Motion Segmentation</papertitle>
+        <a href="https://arxiv.org/abs/2306.03727">
+          <papertitle>Towards Visual Foundational Models of Physical Scenes</papertitle>
         </a>
         <br>
         <strong>Chethan M. Parameshwara*</strong>,
-  <a href="https://www.linkedin.com/in/simin-li-88088b/">Simin Li*</a>,
-  <a href="https://scholar.google.com/citations?user=0gEOJSEAAAAJ">Cornelia Fermüller</a>,
-        <a href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en">Nitin J. Sanket</a>,
-  <a href="https://www.linkedin.com/in/matthew-evanusa-8772109b/">Matthew S. Evanusa</a>,
-  <a href="https://scholar.google.com/citations?user=7QmEsOwAAAAJ&hl=en">Yiannis Aloimonos</a> (* equal contribution)		
+      <a href="https://scholar.google.com/citations?user=LiwtZz4AAAAJ&hl=en">Alessandro Achille*</a>,
+      <a href="https://scholar.google.com/citations?user=g3sXAWkAAAAJ&hl=en">Matthew Trager</a>,
+      <a href="https://scholar.google.com/citations?user=xriXZ6kAAAAJ&hl">Xiaolong Li</a>,
+      <a href="https://scholar.google.com/citations?user=ROBeZmgAAAAJ&hl=en">Jiawei Mo</a>,
+      <a href="https://scholar.google.com/citations?user=3CEGNJQAAAAJ&hl=enJ">Ashwin Swaminathan</a>,
+      <a href="https://www.linkedin.com/in/cj-taylor-aa299">CJ Taylor</a>,
+      <a href="https://scholar.google.com/citations?user=Ku9H38AAAAAJ&hl=en">Dheera Venkatraman</a>,
+      <a href="https://scholar.google.com/citations?user=l78nduAAAAAJ&hl=en">Xiaohan Fei*</a>,
+      <a href="https://scholar.google.com/citations?user=lH1PdF8AAAAJ&hl=en">Stefano Soatto*</a> (* equal contribution)		
+
         <br>
-  <em><a href=" https://www.iros2021.org/">IROS, 2021</a></em> 
-        <br>
-        <a href="https://prg.cs.umd.edu/SpikeMS">project page</a> /
-        <a href="https://github.com/prgumd/SpikeMS">code</a> /
-        <a href="https://arxiv.org/abs/2105.06562">arXiv</a> /
-        <a href="https://www.youtube.com/watch?v=q3w3ns9hWl8">video</a>
+        <a href="https://arxiv.org/pdf/2306.03727">arXiv</a>
   
         <p></p>
-        <p style="color:rgb(110, 110, 110)"> We propose a bio-inspired neural network for the motion detection problem using an asynchronous event camera.</p>
+        <p style="color:rgb(110, 110, 110)"> We describe a first step towards learning general-purpose visual representations of physical scenes
+          using only image prediction as a training criterion.</p>
       </td>
     </tr>  
+
+
+    <tr onmouseout="hdvector_stop()" onmouseover="hdvector_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='nerf_image'>
+            <img src='resource/hdvector.png' width="160" height="160" style="border-style: none">
+          </div>
+          <img src='resource/hdvector.png' width="160" height="160" style="border-style: none">
+        </div>
+        <script type="text/javascript">
+          function hdvector_start() {
+            document.getElementById('hdvector_image').style.opacity = "1";
+          }
+
+          function hdvector_stop() {
+            document.getElementById('hdvector_image').style.opacity = "0";
+          }
+          hdvector_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10089705">
+          <papertitle>Towards an Improved Hyperdimensional Classifier for Event-Based Data</papertitle>
+        </a>
+        <br>
+  <a href="https://www.linkedin.com/in/neal-anwar-114955149">Neal Anwar</a>,
+  <strong>Chethan M. Parameshwara*</strong>,
+  <a href="https://scholar.google.com/citations?user=0gEOJSEAAAAJ">Cornelia Fermüller</a>,
+  <a href="https://scholar.google.com/citations?user=7QmEsOwAAAAJ&hl=en">Yiannis Aloimonos</a>	
+        <br>
+  <em><a href="https://ieeexplore.ieee.org/abstract/document/10089705">CISS, 2023</a></em> 
+        <br>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10089705">project page</a> /
+        <a href="https://ieeexplore.ieee.org/abstract/document/10089705">arXiv</a>
+  
+        <p></p>
+        <p style="color:rgb(110, 110, 110)"> We present a novel bipolar HD encoding mechanism designed for encoding spatiotemporal data of an asynchronous event camera.</p>
+      </td>
+    </tr>  
+
 
 		<tr onmouseout="diffposenet_stop()" onmouseover="diffposenet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
