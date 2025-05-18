@@ -74,6 +74,49 @@
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 	
+
+
+    <tr onmouseout="hypereventsclassifier_stop()" onmouseover="hypereventsclassifier_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='diffposenet_image'><img src='resource/hypereventsclassifier.gif'></div>
+          <img src='resource/hypereventsclassifier.png'>
+        <script type="text/javascript">
+          function hypereventsclassifier_start() {
+            document.getElementById('hypereventsclassifier_image').style.opacity = "1";
+          }
+
+          function diffposenet_stop() {
+            document.getElementById('hypereventsclassifier_image').style.opacity = "0";
+          }
+          diffposenet_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://ter.ps/diffposenet">
+          <papertitle>DiffPoseNet: Direct Differentiable Camera Pose Estimation</papertitle>
+        </a>
+        <br>
+        <strong>Chethan M. Parameshwara</strong>,
+  <a href="https://scholar.google.com/citations?user=mkap0DoAAAAJ&hl=en">Gokul Hari</a>,
+  <a href="https://scholar.google.com/citations?user=0gEOJSEAAAAJ">Cornelia Fermüller</a>,
+        <a href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en">Nitin J. Sanket</a>,
+  <a href="https://scholar.google.com/citations?user=7QmEsOwAAAAJ&hl=en">Yiannis Aloimonos</a>		
+        <br>
+  <em><a href=" https://cvpr2022.thecvf.com/">CVPR, 2022</a></em> 
+        <br>
+        <a href="https://prg.cs.umd.edu/DiffPoseNet">project page</a> /
+        <a href="https://arxiv.org/abs/2203.11174">arXiv</a> /
+        <a href="https://www.youtube.com/watch?v=EuK-7WaM1mQ">video</a>
+  
+        <p></p>
+        <p style="color:rgb(110, 110, 110)"> We propose a novel differentiable programming technique for camera pose estimation in autonomous driving and flying scenarios.</p>
+      </td>
+    </tr>  
+<!--tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="resource/momswithevents.png" alt="b3do" width="160" style="border-style: none">
+      </td-->
 		 
 		<tr onmouseout="diffposenet_stop()" onmouseover="diffposenet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
