@@ -74,6 +74,49 @@
 	  
 	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 	
+    <tr onmouseout="nerf_stop()" onmouseover="nerf_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='nerf_image'>
+            <img src='resource/nerf_after.png' width="160" height="160" style="border-style: none">
+          </div>
+          <img src='resource/nerf_before.png' width="160" height="160" style="border-style: none">
+        </div>
+        <script type="text/javascript">
+          function nerf_start() {
+            document.getElementById('nerf_image').style.opacity = "1";
+          }
+
+          function spikems_stop() {
+            document.getElementById('nerf_image').style.opacity = "0";
+          }
+          nerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2105.06562">
+          <papertitle>SpikeMS: Deep Spiking Neural Network for Motion Segmentation</papertitle>
+        </a>
+        <br>
+        <strong>Chethan M. Parameshwara*</strong>,
+  <a href="https://www.linkedin.com/in/simin-li-88088b/">Simin Li*</a>,
+  <a href="https://scholar.google.com/citations?user=0gEOJSEAAAAJ">Cornelia Fermüller</a>,
+        <a href="https://scholar.google.com/citations?user=ugyWSWwAAAAJ&hl=en">Nitin J. Sanket</a>,
+  <a href="https://www.linkedin.com/in/matthew-evanusa-8772109b/">Matthew S. Evanusa</a>,
+  <a href="https://scholar.google.com/citations?user=7QmEsOwAAAAJ&hl=en">Yiannis Aloimonos</a> (* equal contribution)		
+        <br>
+  <em><a href=" https://www.iros2021.org/">IROS, 2021</a></em> 
+        <br>
+        <a href="https://prg.cs.umd.edu/SpikeMS">project page</a> /
+        <a href="https://github.com/prgumd/SpikeMS">code</a> /
+        <a href="https://arxiv.org/abs/2105.06562">arXiv</a> /
+        <a href="https://www.youtube.com/watch?v=q3w3ns9hWl8">video</a>
+  
+        <p></p>
+        <p style="color:rgb(110, 110, 110)"> We propose a bio-inspired neural network for the motion detection problem using an asynchronous event camera.</p>
+      </td>
+    </tr>  
+
 		<tr onmouseout="diffposenet_stop()" onmouseover="diffposenet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
