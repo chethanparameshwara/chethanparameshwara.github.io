@@ -72,7 +72,39 @@
       </table>
 
 	  
-	 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	  <tr onmouseout="muse_stop()" onmouseover="muse_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='muse_image'><img src='resource/muse_avatar_160_montage.gif'></div>
+          <img src='resource/muse_avatar_160_first.png'>
+        </div>
+        <script type="text/javascript">
+          function muse_start() {
+            document.getElementById('muse_image').style.opacity = "1";
+          }
+
+          function muse_stop() {
+            document.getElementById('muse_image').style.opacity = "0";
+          }
+          muse_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://youtu.be/SdKFDIAGF24?si=V_e0CVjriqjO2k6H&t=1005">
+          <papertitle>Bringing Your Muse to Life</papertitle>
+        </a>
+        <br>
+        <a href="https://research.meta.ai/blog/bringing-your-muse-to-life">Meta Superintelligence Labs, 2026</a>
+        <br>
+        <a href="https://research.meta.ai/blog/bringing-your-muse-to-life">technical report</a> /
+        <a href="https://youtu.be/SdKFDIAGF24?si=V_e0CVjriqjO2k6H&t=1005">Meta Connect 2026 Keynote live demo (~16:00 timestamp)</a>
+        <p></p>
+        <p style="color:rgb(110, 110, 110)">Core contributor to Muse Realtime Avatar, a state-of-the-art embodiment technology that turns Muse Realtime Voice into expressive, interactive avatars.</p>
+      </td>
+    </tr> 
+
+
 	
     <tr onmouseout="nova_stop()" onmouseover="nova_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
@@ -96,9 +128,9 @@
           <papertitle>The Amazon Nova family of models: Technical report and model card</papertitle>
         </a>
         <br>
-        <a href="https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card">Amazon Artificial General Intelligence, 2024</a>
+        <a href="https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card">Amazon Artificial General Intelligence, 2025</a>
         <br>
-        <a href="https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf">technical report</a> /
+        <a href="https://arxiv.org/pdf/2506.12103">technical report</a> /
         <a href="https://www.youtube.com/watch?v=g87NaWcszq0">video</a>
         <p></p>
         <p style="color:rgb(110, 110, 110)">Core contributor to Amazon Nova Reel, an advanced video generation model within the Amazon Nova foundation suite, designed to produce high-quality, customizable outputs with fine-grained motion control.</p>
